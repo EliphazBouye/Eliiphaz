@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App Javascript</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>TODO App (<span class="number-todo"></span>)</h1>
+      <form>
+        <input type="text" id="title" name="title" placeholder="Add new todo"/>
+        <textarea col="30" row="30" id="description" name="description" placeholder="Build a game"></textarea>
+        <input type="submit" value="+">
+      </form>
+      <div class="list-todos">
+        <h2>Tasks</h2>
+        <ul>
+          <li>
+            <div class="todo">
+              <strong>Learn OOP</strong>
+              <span>2022-09-21</span>
+              <p>Learn OOP with Javascript</p>
+              <button>Edit</button>
+              <button>Delete</button>
+            </div>
+          </li>
+          <li>
+            <div class="todo">
+              <strong>Study</strong>
+              <span>2022-09-21</span>
+              <p>Keep study programming stuff</p>
+              <button>Edit</button>
+              <button>Delete</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
